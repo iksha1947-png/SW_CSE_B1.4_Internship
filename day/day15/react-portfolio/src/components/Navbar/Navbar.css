@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: var(--primary);
+ background: linear-gradient(90deg, #0f172a, #1e1b4b, #6d28d9);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
