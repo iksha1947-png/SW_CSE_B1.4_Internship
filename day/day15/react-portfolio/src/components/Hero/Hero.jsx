@@ -17,7 +17,6 @@ function Hero() {
             <div className="hero-content">
                 <h1>{greeting}, I'm <span className="highlight">Iksha</span> 👋</h1>
                 <p className="tagline">I build beautiful, fast, accessible websites.</p>
-                
                 <div className="hero-buttons">
                     <Link to="/projects" className="btn btn-primary">View My Work</Link>
                     <Link to="/contact" className="btn btn-secondary">Contact Me</Link>
