@@ -11,7 +11,7 @@ export const projectsData = [
     category: 'react',
     featured: true,
     liveUrl: '#',
-    githubUrl: '#'
+    githubUrl: 'https://github.com/iksha1947-png/SW_CSE_B1.4_Internship/tree/main/day/day15/react-portfolio'
   },
 
   {
