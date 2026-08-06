@@ -5,7 +5,7 @@ function AboutSection() {
     <section id='about' className='about-section'>
       <div className='about-wrapper container'>
         <div className='about-image'>
-          <img src='/Photo.jpeg' alt='Iksha' />
+          <img src='/Photo.jpeg.jpeg' alt='Iksha' />
         </div>
         <div className='about-copy'>
           <h1>About Me</h1>
