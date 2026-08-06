@@ -1,62 +1,79 @@
-export const categories = ['all', 'web', 'fullstack', 'auth'];
+export const categories = ['all', 'web', 'react', 'fullstack'];
 
 export const projectsData = [
   {
     id: 1,
-    title: 'BookMyShow Clone',
-    description: 'Full-stack movie ticket booking platform',
+    title: 'Student Management System',
+    description: 'College student record management website',
     longDesc:
-      'A MERN stack clone of BookMyShow with movie listings, seat selection, booking history, and user authentication.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'fullstack',
+      'A web application for managing student details, attendance, marks, and course information using React.',
+    tech: ['React', 'JavaScript', 'CSS', 'HTML'],
+    category: 'react',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
+
   {
     id: 2,
-    title: 'React + Spring Boot App',
-    description: 'Full-stack application with REST APIs',
+    title: 'Online Food Ordering App',
+    description: 'Restaurant food ordering website',
     longDesc:
-      'A responsive web app built with React frontend and Spring Boot backend, featuring RESTful APIs, CRUD operations, and secure authentication.',
-    tech: ['React', 'Spring Boot', 'Java', 'REST API'],
+      'A responsive food ordering application with menu browsing, cart management, and online ordering features.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
     category: 'fullstack',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
+
   {
     id: 3,
-    title: 'MERN Todo App',
-    description: 'Task manager with JWT auth',
+    title: 'Weather Forecast App',
+    description: 'Real-time weather information',
     longDesc:
-      'A full-featured todo application with user registration, login, and task management using MongoDB, Express, React, and Node.js.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'auth',
+      'A weather application that displays temperature, humidity, wind speed, and weather conditions using an API.',
+    tech: ['React', 'API', 'CSS'],
+    category: 'react',
     featured: false,
     liveUrl: '#',
     githubUrl: '#'
   },
+
   {
     id: 4,
-    title: 'Portfolio Website',
-    description: 'Personal developer portfolio',
+    title: 'Personal Portfolio',
+    description: 'Responsive portfolio website',
     longDesc:
-      'A multi-page React portfolio showcasing projects, skills, and experience with dark mode support and responsive design.',
-    tech: ['React', 'CSS', 'JavaScript'],
+      'A modern portfolio website showcasing personal information, technical skills, projects, and contact details.',
+    tech: ['React', 'HTML', 'CSS', 'JavaScript'],
     category: 'web',
     featured: true,
     liveUrl: '#',
     githubUrl: '#'
   },
+
   {
     id: 5,
-    title: 'Habit Tracker',
-    description: 'Daily habit tracking app',
+    title: 'Library Management System',
+    description: 'Book issue and return management',
     longDesc:
-      'A MERN-based habit tracker allowing users to create habits, track daily progress, and visualize streaks over time.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    category: 'web',
+      'A library management application for handling book records, issuing books, returning books, and member details.',
+    tech: ['React', 'Node.js', 'MongoDB'],
+    category: 'fullstack',
+    featured: false,
+    liveUrl: '#',
+    githubUrl: '#'
+  },
+
+  {
+    id: 6,
+    title: 'Expense Tracker',
+    description: 'Track daily income and expenses',
+    longDesc:
+      'An expense tracker application that allows users to record daily transactions and monitor their spending.',
+    tech: ['React', 'JavaScript', 'CSS'],
+    category: 'react',
     featured: false,
     liveUrl: '#',
     githubUrl: '#'
